@@ -7,7 +7,7 @@ The CASME II (Chinese Academy of Sciences Micro-Expression II) dataset is one of
 This dataset provides indexes of ApexFrames, which, in theory, are the frames that contain the most information about the expression. The process for identifying these frames is described in, for example, 'CapsuleNet for Micro-Expression Recognition'. In this project, we use the MediaPipe BlazeFace face detection model, which helps extract faces from the entire frames.
 
 The dataset structure after preparation is shown below, with each folder containing both the ApexFrame and OnsetFrame:
-
+```
 prepared_dataset/
     ├── sub01/
     │   ├── ROI_EP02_01f/
@@ -23,7 +23,7 @@ prepared_dataset/
     │   │   ├── apex_frame.jpg
     │   └── ...
     └── ...
-
+```
 The model predicts microexpressions categorized into four groups. The mapping of original labels to these groups is as follows:
 
 Positive: Includes "happiness".

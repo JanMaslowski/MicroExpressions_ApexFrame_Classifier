@@ -26,10 +26,10 @@ prepared_dataset/
 ```
 The model predicts microexpressions categorized into four groups. The mapping of original labels to these groups is as follows:
 
-Positive: Includes "happiness".
-Negative: Includes "disgust","fear", "repression," and "sadness."
-Surprise: This category is kept separate and remains "surprise".
-Other: This category includes the label "others."
+*Positive: Includes "happiness".
+*Negative: Includes "disgust","fear", "repression," and "sadness."
+*Surprise: This category is kept separate and remains "surprise".
+*Other: This category includes the label "others."
 
 ## Models
  
